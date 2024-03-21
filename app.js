@@ -15,5 +15,5 @@ app.get('/', (req, res) => {
   res.redirect('/livros');
 });
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Servidor Rodando na Porta: ${port}`))
